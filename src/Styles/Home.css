@@ -1,0 +1,252 @@
+.home-container{
+    background-color: #040404;
+    height: 100vh;
+    width: 100vw;
+    color: #f3f3f3;
+}
+.home-chat-container{
+    display: flex;
+    align-items: center;
+}
+
+.home-chat-window{
+    /* border: 1px solid white; */
+    width: 76vw;
+    height: 100vh;
+    background-color: #040404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.home-chat-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    font-size: 22px;
+}
+.home-lottie-ani{
+    width: 500px;
+    height: 500px;
+}
+.home-btn-bars{
+    display: none;
+}
+.home-header{
+    background-color: #040404;
+}
+
+
+@media screen and (max-width: 950px){
+    @keyframes sideNav {
+        0%{
+            left: 0vw;
+        }
+        100%{
+            left: -30vw;
+        }
+    }
+    @keyframes sideNavOpen {
+        0%{
+            left: -30vw;
+        }
+        100%{
+            left: 0;
+        }
+    }
+    .home-header{
+        position: absolute;
+        top: 0;
+        left: -30vw;
+        width: 30vw;
+        height: 100vh;
+        animation: sideNav 0.5s ease-in-out;
+    }
+    .home-header-open{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30vw;
+        height: 100vh;
+        background-color: #040404;
+        animation: sideNavOpen 0.5s ease-in-out;
+    }
+    .home-chat-window{
+        width: 100vw;
+        height: 100vh;
+     
+    }
+    .home-chat-empty{
+        width: 100%;
+        height: 100%;
+    }
+    .home-btn-bars{
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 800px){
+    @keyframes sideNav {
+        0%{
+            left: 0vw;
+        }
+        100%{
+            left: -35vw;
+        }
+    }
+    @keyframes sideNavOpen {
+        0%{
+            left: -35vw;
+        }
+        100%{
+            left: 0;
+        }
+    }
+    .home-header{
+        position: absolute;
+        top: 0;
+        left: -35vw;
+        width: 35vw;
+        height: 100vh;
+        /* transform: translateX(-500%); */
+    /* transition: transform 0.5s ease-in-out; */
+    }
+    .home-header-open{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 35vw;
+        height: 100vh;
+        /* transform: translateX(0%); */
+        /* transition: transform 0.5s ease-in-out; */
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+    @keyframes sideNav {
+        0%{
+            left: 0vw;
+        }
+        100%{
+            left: -45vw;
+        }
+    }
+    @keyframes sideNavOpen {
+        0%{
+            left: -45vw;
+        }
+        100%{
+            left: 0;
+        }
+    }
+    .home-header{
+        position: absolute;
+        top: 0;
+        left: -45vw;
+        width: 45vw;
+        height: 100vh;
+    }
+    .home-header-open{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 45vw;
+        height: 100vh;
+    }
+    .home-chat-window{
+        width: 100vw;
+        height: 100vh;
+    }
+    .home-chat-empty{
+        width: 70%;
+        height: 70%;
+        font-size: 15px;
+    }
+    .home-lottie-ani{
+        width: 300px;
+        height: 300px;
+    }
+    .home-btn-bars{
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 450px){
+    @keyframes sideNav {
+        0%{
+            left: 0vw;
+        }
+        100%{
+            left: -70vw;
+        }
+    }
+    @keyframes sideNavOpen {
+        0%{
+            left: -70vw;
+        }
+        100%{
+            left: 0;
+        }
+    }
+    .home-header{
+        position: absolute;
+        top: 0;
+        left: -70vw;
+        width: 70vw;
+        height: 100vh;
+    }
+    .home-header-open{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70vw;
+        height: 100vh;
+    }
+    .home-chat-window{
+        width: 100vw;
+        height: 100vh;
+    }
+    .home-chat-empty{
+        width: 85%;
+        height: 70%;
+        font-size: 13px;
+        /* border: 1px solid white; */
+    }
+    .home-lottie-ani{
+        /* border: 1px solid white; */
+        width: 300px;
+        height: 300px;
+    }
+    .home-btn-bars{
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+}

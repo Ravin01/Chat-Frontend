@@ -1,0 +1,136 @@
+.form-container{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 65%;
+    width: 70%;
+    /* From https://css.glass */
+
+}
+.login-container{
+    /* border: 1px solid white; */
+    width: 30vw;
+    height: 70vh;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(253, 253, 253, 0);
+border-radius: 16px;
+box-shadow: 0 2px 25px #0077ff;
+/* backdrop-filter: blur(3.4px); */
+/* -webkit-backdrop-filter: blur(3.4px); */
+}
+.login-input{
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 12px;
+}
+
+.login-input:focus{
+    outline: none;
+}
+
+.login-heading{
+    font-size: 28px;
+}
+.login-button{
+    padding: 8px 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin: 0px 0px -30px 0px;
+    cursor: pointer;
+}
+.form-link{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.form-link-register{
+    color: #0077ff;
+    text-decoration: none;
+}
+.login-form-link{
+    color: #0077ff;
+    text-decoration: none;
+}
+.forgot-link-div{
+    font-size: 13px;
+    margin: -20px 0px 0px 0px;
+}
+
+.login-loader-con{
+    width: 120px;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  .login-loader {
+    border: 2px solid transparent;
+    border-top: 2px solid #f3f3f3;
+    border-left: 2px solid #f3f3f3;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 0.5s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  @media screen and (max-width : 1116px) {
+    .form-link{
+      font-size: 12px;
+      justify-content: space-between;
+      width: 75%;
+    }
+  
+  }
+@media screen and (max-width : 950px) {
+    .login-container{
+        width: 50%;
+    }
+  }
+@media screen and (max-width : 650px) {
+    .login-container{
+        width: 60%;
+    }
+    .login-heading{
+        font-size: 24px;
+    }
+  }
+@media screen and (max-width : 450px) {
+    .login-container{
+        width: 75%;
+        height: 55%;
+    }
+    .login-heading{
+        font-size: 16px;
+    }
+    .login-input{
+        height: 30px;
+        width: 100%;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    .login-button{
+        font-size: 12px;
+
+    }
+  }
