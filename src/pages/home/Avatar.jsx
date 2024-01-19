@@ -8,7 +8,7 @@ const Avatar = ({avatarProfile, setAvatarProfile}) => {
     const {userEmail, accessToken} = JSON.parse(sessionStorage.getItem('user'))
     const [profileData, setProfileData] = useState({
         profileLink : ''
-    })
+    }) 
     // const profileArray = [
     //     'https://images.unsplash.com/photo-1457449940276-e8deed18bfff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D',
     //     'https://images.unsplash.com/photo-1474978528675-4a50a4508dc3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2lybCUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D',
