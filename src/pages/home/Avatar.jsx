@@ -19,7 +19,7 @@ const Avatar = ({avatarProfile, setAvatarProfile}) => {
     // ]
     const profileArray = [
         'https://pics.craiyon.com/2023-07-15/dc2ec5a571974417a5551420a4fb0587.webp',
-        'https://lh3.googleusercontent.com/proxy/lmo_BMkEUpaAap2dn3BHwsB77_0mK83hFdyDRgaXW2_ZM0gjLGbhXtdMBxPcwJjiKt5yClOAplNjrvCYLtIhPcxQE-CveN6_fD_Ows2t7XBiRr1-PUn2KIy2ArECBdrvxweT5gZddOl4HSxS2yc',
+        'https://www.finetoshine.com/wp-content/uploads/Girls-Dp-Dp-For-Girls-Whatsapp-Dp-For-Girl-Fb-Profile-Pic-For-Girls.jpg',
         'https://image.lexica.art/full_jpg/19f280a2-2b97-4be2-b782-1fd5c70b84f4',
         'https://i.pinimg.com/736x/d0/4b/1f/d04b1f2ed3ca8ad4a302fbe9f4f5a875.jpg',
         'https://media.istockphoto.com/id/1316420668/vector/user-icon-human-person-symbol-social-profile-icon-avatar-login-sign-web-user-symbol.jpg?s=612x612&w=0&k=20&c=AhqW2ssX8EeI2IYFm6-ASQ7rfeBWfrFFV4E87SaFhJE=',
